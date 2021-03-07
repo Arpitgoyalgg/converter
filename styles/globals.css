@@ -1,16 +1,24 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+textarea {
+  margin: 60px;
+  border: 2px solid blue;
+  background-color: peachpuff;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.wrap {
+  display: flex;
 }
 
-* {
-  box-sizing: border-box;
+button {
+  background-color: peachpuff;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .wrap {
+    flex-wrap: wrap;
+  }
 }
